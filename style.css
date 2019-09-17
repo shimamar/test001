@@ -1,0 +1,145 @@
+@import url(sanitize.css);
+
+body{
+    background-color: #F2F3F7;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container{
+    background-color: #F2F3F7;
+    width:1295px;
+    //height:799px;
+}
+
+
+.top-container{
+    height: 700px;
+}
+
+.top-content{
+    background-image: url(../img/main.png);
+    background-size:cover;
+    margin:0px auto;
+    width: 980px;
+    height:998.69px;
+}
+
+.header{
+    background-color: #FFFFFF;
+    width:980px;
+    margin-top:59px;
+    box-shadow: 4px 4px 1px #808080;
+}
+
+.header-left{
+    float: left;
+    width:168px;
+    height:34px;
+    margin: 20px 0 20px 30px; //ロゴの周りの余白指定
+}
+
+
+nav{
+    text-align: center;
+}
+
+nav ul{
+    margin: 0px auto;
+    font-family: Noto Sans CJK JP;
+    white-space: nowrap;
+}
+
+nav li{
+    list-style:none;
+    display: inline-block;
+    width:10%;
+    min-width:90px;
+    font-size: 14px;
+}
+
+nav li:not(:last-child){
+    border-right:2px solid #ddd;
+}
+
+.content{
+    margin:0px auto;
+    width: 1295px;
+    height: 1650px;    
+    background-color:white;
+    //height:998.69px;
+}
+
+.content-info{
+    //background-color:#F2F3F7;
+    width: 980px;
+    display: block;
+    margin: 40px auto;
+    padding-top:50px;
+    padding-bottom: 80px;
+}
+
+.about{
+    //height: 332.28px;
+    background-color:#F2F3F7;
+    padding-bottom: 18px;
+    box-shadow: 10px 10px white inset; //内側に影をつける
+}
+
+.about-content{
+    //background-color:#F2F3F7;
+    //margin: 10px 0 10px 10px;
+    //height: 282.5px;
+}
+
+.about img{
+    float: left;
+    height: 72.88px;
+    margin-right:20px;
+}
+
+.about h2{
+    font-family: Noto Sans CJK JP;
+    font-size: 43px;
+}
+
+.about p{
+    font-family: Noto Sans CJK JP;
+    font-size: 17px;
+
+}
+
+.btn-about{
+    background-color: #D4004E;
+    width:157.12px;
+    height: 35.8px;
+    display: inline-block;
+    text-align: center;
+    padding:10px auto;
+}
+
+.btn{
+    color:white;
+    font-family: Noto Sans CJK JP;
+    font-size: 13px;
+    padding:10px;
+    margin:20px auto;
+    padding:0 30px;
+}
+
+.btn-about img{
+    width: 5.31px;
+    height: 10.62px;
+    float:right;
+}
+
+.service-info{
+    background-color:white;
+    height: 1430.28px;
+}
+
+.service-info img{
+    float: left;
+    height: 72.88px;
+    margin-right:20px;
+}
